@@ -1,0 +1,37 @@
+p{
+    color: blue;
+    border: 1px solid red;
+}
+#texto{
+    color: red;
+}
+.texto-verde{
+    color: green;
+}
+.centro{
+    text-align: center;
+}
+h1{
+    color: rgb(200,166,39);
+    border: 1px solid red;
+
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.1868fcf1772933f35c6bcd112154e47e?rik=CIrvVqpqxzXAOw&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgb(192, 182, 182);
+    margin: 50px;
+}
+.margin1{
+ margin-top: 40px;
+ margin-bottom: 30px;
+ margin-left: 50px;
+ margin-right: 120;
+border: 1px solid black;
+}
+.margin1 >p{
+    margin: 15px;
+}

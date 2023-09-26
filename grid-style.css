@@ -1,0 +1,42 @@
+body{
+    margin: 10px;
+}
+.container{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+background-color: #a822009c;
+grid-gap: 15px;
+color: #444;
+}
+.box{
+    background-color: #444;
+    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-apetitoso-tazon-pozole_23-2149248525.jpg?w=1380&t=st=1695712092~exp=1695712692~hmac=1e79ef933e9f0dd91e645dedcdc72d2c3ea336737a24d9aa194a5c0d2dc5c905);
+ /* background-repeat: no-repeat;*/
+    color: #1f0000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.header{
+    grid-column: 1/6;
+    border: 1px solid rgb(110, 32, 13);
+    text-align: center;
+}
+.article{
+    grid-column: 1/5;
+    border: 1px solid black;
+}
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/4;
+    border: 1px solid black;
+}
+.footer{
+    grid-column: 1/6;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
